@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<input type="number" id="inputNumber" value="Enter a number">
+
+<a href="C:\Users\hasha\Desktop\js1.html"<button>Submit</button></a>
+
+<script>
+
+function myFunction() {
+  var x;
+
+  x = document.getElementById("inputNumber").value,
+        url = 'C:\Users\hasha\Desktop\js1.html?name=' + encodeURIComponent(x);
+
+    document.location.href = url;
+
+}
+
+</script>
+
+
+</body>
+</html>
